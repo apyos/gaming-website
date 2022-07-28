@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      grayscale: {
+        75: "75%",
+      },
+    },
   },
   plugins: [],
 };

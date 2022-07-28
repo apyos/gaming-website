@@ -16,7 +16,7 @@ const Item = ({ name, image, description }: ItemProps) => (
   <div class="px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6">
     <div class="py-6 px-6 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 rounded-xl">
       <div class="inline-block text-gray-900 mb-4">
-        <img src={image} class="rounded-md" />
+        <img src={image} class="rounded-md grayscale-75" />
       </div>
       <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
         {name}
