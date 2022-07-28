@@ -8,13 +8,10 @@ import gregory from "../assets/team/gregory.svg";
 import bastien from "../assets/team/bastien.svg";
 
 export const OurTeam = () => (
-  <div
-    id="our-team"
-    class="section relative pt-20 pb-8 md:pt-16 bg-white dark:bg-gray-800"
-  >
+  <div id="our-team" class="section relative pt-20 pb-8 md:pt-16 bg-white">
     <div class="container xl:max-w-6xl mx-auto px-4">
       <header class="text-center mx-auto mb-12">
-        <h2 class="text-2xl leading-normal mb-2 font-bold text-gray-800 dark:text-gray-100">
+        <h2 class="text-2xl leading-normal mb-2 font-bold text-gray-800">
           <span class="font-light">Our</span> Team
         </h2>
 

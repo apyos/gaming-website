@@ -49,7 +49,7 @@ type TeamMemberProps = {
 export const TeamMember = ({ name, title, avatar, links }: TeamMemberProps) => (
   <div class="flex-shrink max-w-full px-4 w-full md:w-1/3 xl:px-6">
     <div
-      class="relative overflow-hidden bg-white dark:bg-gray-800 mb-12 hover-grayscale-0 wow fadeInUp"
+      class="relative overflow-hidden bg-white mb-12 hover-grayscale-0 wow fadeInUp"
       data-wow-duration="1s"
     >
       <div class="relative overflow-hidden px-6">
