@@ -30,4 +30,3 @@
     "*.{js,jsx,json,ts,tsx,css,md,html}": "prettier --write"
   }
 }
-c
