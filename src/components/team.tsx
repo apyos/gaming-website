@@ -55,7 +55,7 @@ export const TeamMember = ({ name, title, avatar, links }: TeamMemberProps) => (
       <div class="relative overflow-hidden px-6">
         <img
           src={avatar}
-          class="max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale"
+          class="max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale max-w-sm"
           alt="title image"
         />
       </div>
