@@ -10,10 +10,8 @@ import logo from "./assets/logo.png";
 export const App = () => {
   return (
     <div class="text-gray-700">
-      <header class="bg-gray-50">
-        <nav class="py-8">
-          <img src={logo} class="m-auto" />
-        </nav>
+      <header class="bg-gray-50 py-8">
+        <img src={logo} class="m-auto" />
       </header>
 
       <main id="content">
