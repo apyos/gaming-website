@@ -29,19 +29,21 @@ export const Hero = () => (
                 We're hiring, please don't hesitate to contact us!
               </p>
             </div>
-            <a
-              class="py-2.5 px-10 inline-block text-center leading-normal text-gray-900 bg-white border-b border-gray-100 hover:text-black hover:ring-0 focus:outline-none focus:ring-0 mr-4"
-              href="#our-work"
-            >
-              <OurWork /> Our Work
-            </a>
+            <div class="flex gap-2 sm:gap-4 flex-col sm:flex-row text-center leading-normal justify-center lg:justify-start">
+              <a
+                class="py-2.5 px-10 text-gray-900 bg-white border-b border-gray-100 hover:text-black hover:ring-0 focus:outline-none focus:ring-0"
+                href="#our-work"
+              >
+                <OurWork /> Our Work
+              </a>
 
-            <a
-              class="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border-b border-gray-800 hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
-              href="#contact"
-            >
-              <ContactUs /> Contact Us
-            </a>
+              <a
+                class="py-2.5 px-10 text-gray-100 bg-black border-b border-gray-800 hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
+                href="#contact"
+              >
+                <ContactUs /> Contact Us
+              </a>
+            </div>
           </div>
         </div>
       </div>
