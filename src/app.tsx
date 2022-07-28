@@ -71,9 +71,6 @@ export const App = () => {
                         <a href="#our-work">Our Work</a>
                       </li>
                       <li class="py-1 hover:text-gray-900">
-                        <a href="#what-we-do">What We Do</a>
-                      </li>
-                      <li class="py-1 hover:text-gray-900">
                         <a href="#our-team">Our Team</a>
                       </li>
                     </ul>
